@@ -50,3 +50,22 @@ print(k==l)                 # False
 print(k<l)                 # True
 
 
+b = input("entert the number : ")
+b = int(b)
+print(b , type(b))
+d = b + 90
+print(d)
+
+c = input ("Enter your name :" )
+print(f"Hello {c} ")
+
+is_number = bool(int(input("Are you member press 1 for yes 0 for no : ")))
+print("Membership status", is_number)
+                
+name = input("Enter the name and age : ")
+print(name)
+
+name_age = input("Enter the name and age : press , to separate ")
+name, age = name_age.split(",")
+print(name)
+print(age)
