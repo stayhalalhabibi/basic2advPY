@@ -46,26 +46,26 @@ print(str1 + name)         # sharifur rahman
 k = 12
 l = 34
 print(k>l)                 # False
-print(k==l)                 # False
+print(k==l)                # False
 print(k<l)                 # True
 
 
 b = input("entert the number : ")
 b = int(b)
-print(b , type(b))
-d = b + 90
-print(d)
+print(b , type(b))                          # n = 60
+d = b + 90             
+print(d)                                    # n+ 90 = 150
 
-c = input ("Enter your name :" )
-print(f"Hello {c} ")
+c = input ("Enter your name :" )            # sharif
+print(f"Hello {c} ")                        # Hello sharif
 
-is_number = bool(int(input("Are you member press 1 for yes 0 for no : ")))
-print("Membership status", is_number)
+is_number = bool(int(input("Are you member press 1 for yes 0 for no : ")))  #1
+print("Membership status", is_number)       # Member status True
                 
-name = input("Enter the name and age : ")
-print(name)
+name = input("Enter the name and age : ")  
+print(name)                                 # sharif , 19
 
-name_age = input("Enter the name and age : press , to separate ")
+name_age = input("Enter the name and age : press , to separate ")  # sharif , 20
 name, age = name_age.split(",")
-print(name)
-print(age)
+print("name",name)                                #  sharif
+print("age",age)                                 # 20
